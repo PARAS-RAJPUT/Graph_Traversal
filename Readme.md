@@ -3,7 +3,7 @@
 This project demonstrates graph traversal algorithms using Breadth-First Search (BFS) and Depth-First Search (DFS) in C++.
 Both recursive and iterative versions of DFS are implemented with detailed step-by-step output to visualize the traversal process.
 
-📌 Features
+## 📌 Features
 
 Undirected graph using adjacency list
 
@@ -21,8 +21,8 @@ Iterative version using stack
 
 Step-by-step traversal logs for learning and debugging
 
-🧩 Algorithms Implemented
-1. Breadth-First Search (BFS)
+## 🧩 Algorithms Implemented
+### 1. Breadth-First Search (BFS)
 
 Uses a queue
 
@@ -30,7 +30,7 @@ Visits nodes level by level
 
 Marks nodes as visited when enqueued
 
-2. Depth-First Search (DFS – Recursive)
+### 2. Depth-First Search (DFS – Recursive)
 
 Uses recursion
 
@@ -40,7 +40,7 @@ Going deeper into nodes
 
 Backtracking steps
 
-3. Depth-First Search (DFS – Iterative)
+### 3. Depth-First Search (DFS – Iterative)
 
 Uses an explicit stack
 
@@ -48,7 +48,7 @@ Simulates recursive DFS behavior
 
 Pushes neighbors in reverse order for correct traversal
 
-🛠️ Input Format
+## 🛠️ Input Format
 
 Number of vertices V and edges E
 
@@ -65,7 +65,7 @@ Enter 4 edges (u v):
 3 5
 Enter starting node: 1
 
-📤 Output
+## 📤 Output
 
 The program prints:
 
@@ -83,14 +83,14 @@ Step 1: Visited 1
    -> Pushed 3 into queue
 ...
 
-⚙️ How to Compile and Run
+## ⚙️ How to Compile and Run
 Compile
 g++ -std=gnu++17 -o graph_traversal main.cpp
 
 Run
 ./graph_traversal
 
-🧠 Concepts Covered
+## 🧠 Concepts Covered
 
 Graph representation using adjacency list
 
@@ -102,7 +102,7 @@ Visited array to avoid cycles
 
 Traversal order control
 
-📚 Suitable For
+## 📚 Suitable For
 
 Learning BFS and DFS
 
@@ -112,6 +112,6 @@ Interview preparation
 
 Debugging and visualization of traversals
 
-✨ Author
+## ✨ Author
 
 Paras Rajput
