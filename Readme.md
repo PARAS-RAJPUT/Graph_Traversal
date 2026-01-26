@@ -102,16 +102,6 @@ Visited array to avoid cycles
 
 Traversal order control
 
-## 📚 Suitable For
-
-Learning BFS and DFS
-
-Data Structures & Algorithms practice
-
-Interview preparation
-
-Debugging and visualization of traversals
-
 ## ✨ Author
 
 Paras Rajput
